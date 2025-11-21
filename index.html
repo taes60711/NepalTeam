@@ -3,12 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Explore Nepal</title>
 
      <link rel="stylesheet" href="styles/index_style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
+    <!-- header -->
+    <header id="header">
+        <div class="logo">
+            <img
+                src="https://media.nepaltrekadventures.com/uploads/media/Things%20to%20Know%20for%20Traveling%20to%20Nepal/nepal-flag.jpg"
+                alt="Explore Nepal" />
+            <p class="title">Nepal</p>
+        </div>
+
+        <div class="sq">
+            <select class="loginBtn" id="language">
+                <option value="en">English</option>
+                <option value="ne">Nepali</option>
+                <option value="jp">Japanese</option>
+            </select>
+            <button class="loginBtn">
+                Login
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </button>
+        </div>
+    </header>
+      <!-- home -->
+    <div class="Item1" id="Item1">
+        <img class="bg" src="https://housefoods.jp/data/curryhouse/assets/images/know/nepal/a.jpg" alt="Nepal Background">
+        <h1 class="welcome title">Welcome to Nepal</h1>
+        <div class="squr-text">
+            <a class="squreText title" href="#Item2">
+                <p class="mr15">place</p>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a class="squreText title" href="#Item3">
+                <p class="mr15">restaurant</p>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a class="squreText title" href="#Item4">
+                <p class="mr15">travel</p>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a class="squreText title" href="/commponents/culture_page.html">
+                <p class="mr15">culture</p>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+        </div>
+    </div>
     
+    <div class="Item2" id="Item2">
+        <div class="cardBtnContainer">
+            <button class="cardBtn mr15" onclick="moveScroll('.itemCardContainer', 'left')">
+                <i class="fa-solid fa-caret-left"></i>
+            </button>
+            <button class="cardBtn" onclick="moveScroll('.itemCardContainer', 'right')">
+                <i class="fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+        <div class="itemCardContainer">
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://www.natureworld.jp/_next/image?url=https%3A%2F%2Fsenmonten-cdn.his-j.com%2Fmedia%2Fproduction%2Farticle%2Fb829c4e9-975e-49fc-8b5c-2a5c3add9ed5.jpeg&w=3840&q=75" 
+                    alt="">
+                </div>
+                <h2>Nepal House</h2>
+                <details>
+                <summary>About Mount Everest</summary>
+                <p>
+                    Mount Everest, the world’s highest peak at 8,849 meters, lies on the border of Nepal and Tibet.
+                    It is famous for its extreme conditions and attracts thousands of climbers each year.
+                </p>
+                </details>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.7qh8ZTiGdlCq3vZlqKZ8qAHaEr?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Boudha Stupa" />
+                </div>
+                <h2>MOMO HOUSE</h2>
+                <details>
+                <summary>About Boudha Stupa</summary>
+                <p>
+                    Boudha, or Boudhanath, in Kathmandu, is one of the largest spherical stupas in the world.
+                    It is a sacred Buddhist site representing enlightenment and houses relics of Buddha.
+                    The area is home to many monasteries and Tibetan communities.
+                </p>
+                </details>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.Wb38oCdVXpL7wHauXOoKKgHaEd?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Kathmandu Durbar Square" />
+                </div>
+                <h2>NEWA SEKUWA</h2>
+                <details>
+                <summary>About Kathmandu Durbar Square</summary>
+                <p>
+                    Kathmandu Durbar Square, also known as Basantapur or Hanuman Dhoka, is a UNESCO World Heritage Site.
+                    It showcases Nepal's ancient architecture, temples, and royal palaces, symbolizing its cultural history.
+                    Despite the 2015 earthquake, it remains a vibrant and active historical site.
+                </p>
+                </details>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://www.natureworld.jp/_next/image?url=https%3A%2F%2Fsenmonten-cdn.his-j.com%2Fmedia%2Fproduction%2Farticle%2Fb829c4e9-975e-49fc-8b5c-2a5c3add9ed5.jpeg&w=3840&q=75" 
+                    alt="">
+                </div>
+                <h2>Mt. Everest</h2>
+                <details>
+                <summary>About Mount Everest</summary>
+                <p>
+                    Mount Everest, the world’s highest peak at 8,849 meters, lies on the border of Nepal and Tibet.
+                    It is famous for its extreme conditions and attracts thousands of climbers each year.
+                </p>
+                </details>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.7qh8ZTiGdlCq3vZlqKZ8qAHaEr?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Boudha Stupa" />
+                </div>
+                <h2>Boudha Stupa</h2>
+                <details>
+                <summary>About Boudha Stupa</summary>
+                <p>
+                    Boudha, or Boudhanath, in Kathmandu, is one of the largest spherical stupas in the world.
+                    It is a sacred Buddhist site representing enlightenment and houses relics of Buddha.
+                    The area is home to many monasteries and Tibetan communities.
+                </p>
+                </details>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.Wb38oCdVXpL7wHauXOoKKgHaEd?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Kathmandu Durbar Square" />
+                </div>
+                <h2>Kathmandu Durbar Square</h2>
+                <details>
+                <summary>About Kathmandu Durbar Square</summary>
+                <p>
+                    Kathmandu Durbar Square, also known as Basantapur or Hanuman Dhoka, is a UNESCO World Heritage Site.
+                    It showcases Nepal's ancient architecture, temples, and royal palaces, symbolizing its cultural history.
+                    Despite the 2015 earthquake, it remains a vibrant and active historical site.
+                </p>
+                </details>
+            </div>
+            
+
+        </div>
+    </div>
+
+     <div class="Item3" id="Item3">
+        <h class="titl">Restaurant</h>
+
+        <div class="sur2">
+            <button class="cardBtn" onclick="moveScroll('.squr4', 'left')">
+                <i class="fa-solid fa-caret-left"></i>
+            </button>
+            <div class="squr4 mb15">
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://dancyu.jp/images/m5633.jpg"/>
+                </div>
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://s3-ap-northeast-1.amazonaws.com/haraheri-fullhouse/upload_by_admin/nepalese_cuisine_800"/>
+                </div>
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://nagoya-meshi.com/wp-content/uploads/2019/01/00397BFB-52B0-44C5-AC09-070E9E93B020-640x480.jpeg"/>
+                </div>
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://rimage.gnst.jp/rest/img/81kk8tps0000/s_0n5k.jpg"/>
+                </div>
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://storage.googleapis.com/studio-cms-assets/projects/7kad56DbW3/s-690x460_v-fs_webp_c718b925-1af0-4ef6-8ba9-9200e62a44b7.webp"/>
+                </div>
+                <div class="restaurantCard ml5 mr5">
+                    <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/manao-life/20240226/20240226183148.jpg"/>
+                </div>
+            </div>
+            <button class="cardBtn" onclick="moveScroll('.squr4', 'right')">
+                <i class="fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+         
+    </div>
+    <div class="Item4" id="Item4">
+        <h class="titl">travel</h>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+        <a href="/about">About</a>
+        <a href="/information">Information</a>
+        <a href="/events">Events</a>
+        </div>
+        <p>© 2025 Explore Nepal. All rights reserved.</p>
+    </footer>
+
+    <a class="mybutton" id="mybutton" href="#header">
+        <i class="fa-solid fa-caret-up"></i>
+    </a>
+
     <script src="controller/index_controller.js" defer></script>
 </body>
 </html>
