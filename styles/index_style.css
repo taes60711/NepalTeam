@@ -221,13 +221,11 @@ header{
 }
 
 .Item4{
-    height:600px;
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
-    /* background-color:rgb(71, 173, 71); */
 }
 
 .mybutton{
@@ -501,3 +499,9 @@ header{
 }
 
 
+.map {
+    margin-left: 30px;
+    width: 400px;
+    height: 250px;
+    border: 0;
+}
