@@ -11,7 +11,7 @@
 
     if(idValue != "" && passwordValue != ""){
         alert("Login Successful!");
-        window.location.href = "/NepalTeam/";
+        window.location.href = "/NepalTeam/index.html";
     } else {
         alert("Invalid ID or Password. Please try again.");
     }
