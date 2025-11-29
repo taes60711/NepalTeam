@@ -1,0 +1,68 @@
+
+
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240731/pngtree-beautiful-landscape-in-himalays-annapurna-region-nepal-image_15937415.jpg'); /* 画像のパス */
+    background-size: cover; /* 画面全体に表示 */
+    background-attachment: fixed; /* スクロールしても背景画像を固定 */
+    background-position: center; /* 画像の位置を中央に */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    margin: 0;
+}
+
+.loginContainer {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.inputField{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: none; /* 枠線をなくす */
+    outline: none; /* フォーカス時の枠線をなくす */
+       border-bottom: 1px solid rgb(163, 161, 161); /* 下線をつける */
+}
+
+.pwdForgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.loginButton{
+    width: 360px;  /* loginContainerの全幅400pxため、360pxを設定しました */
+    height: 40px;
+    background-color: rgb(0, 120, 215);
+    color: white;
+    border: none; /* 枠線をなくす */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* カーソルをポインターにする */
+}
+.loginButton:hover{
+    background-color: rgb(0, 100, 195);
+}

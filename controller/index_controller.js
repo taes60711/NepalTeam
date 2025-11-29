@@ -1,4 +1,6 @@
 const toTopBtn = document.getElementById('mybutton');
+const overViewDetail = document.querySelector('.infoView.overview');
+const transportationDetail = document.querySelector('.infoView.transportation');
 
 window.addEventListener('scroll', () => {
   if (window.scrollY === 0) {
@@ -9,8 +11,6 @@ window.addEventListener('scroll', () => {
     }
   }
 });
-
-
 
 function moveScroll(viewClassName, direct) { 
     const container = document.querySelector(viewClassName);
@@ -48,3 +48,19 @@ function autoMove(){
 }
 
 autoMove();
+
+
+function changeTravelDetail(viewBtn){
+  if(viewBtn == 'overview'){
+    overViewDetail.classList.remove('hidden');
+    transportationDetail.classList.add('hidden');
+    return;
+  }
+  if(viewBtn == 'transportation'){
+    overViewDetail.classList.add('hidden');
+    transportationDetail.classList.remove('hidden');
+    return;
+  }
+  
+   
+}

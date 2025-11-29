@@ -39,7 +39,7 @@ p{
 }
 
 footer {
-    /* background-color:  hsl(354, 86%, 29%); */
+
     padding: 40px 0 60px;
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -226,7 +226,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgb(71, 173, 71);
+    margin-bottom: 50px;
+    /* background-color:rgb(71, 173, 71); */
 }
 
 .mybutton{
@@ -413,3 +414,90 @@ header{
 #language:hover {
   background-color: #e0f2ff;
 }
+
+
+.infoContianer{
+    width: 850px;
+    height: 100%;
+}
+
+.infoContianer .btnView{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoBtn{
+    width: 200px;
+    height: 50px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    margin: 0px 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.infoBtn:hover{
+    cursor: pointer;
+    background-color: var(--sub-color);
+}
+
+.infoView{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.infoView .title{
+    width: 100%;
+    height: 50px;
+    background-color:  var(--main-color);
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.infoView .infoContent{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.infoView .infoContent ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.infoView .infoContent ul li{
+    display: flex;         
+    align-items: center;      
+    margin-bottom: 10px;     
+}
+
+.infoView .infoContent ul li .label{
+    width: 80px;
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 4px;   
+}
+
+.infoView .infoContent ul li .content{
+    flex: 1;                 
+    margin-left: 5px;
+    background-color: #bac8d0;
+    padding: 4px;
+    border-radius: 4px;
+    color: #1d1d1d;
+}
+
+

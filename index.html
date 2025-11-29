@@ -25,10 +25,11 @@
                 <option value="ne">Nepali</option>
                 <option value="jp">Japanese</option>
             </select>
-            <button class="loginBtn">
-                Login
-                <i class="fa-solid fa-right-to-bracket"></i>
-            </button>
+            <a style="display: flex; align-items: center; text-decoration: none;" class="loginBtn" href="/commponents/login_page.html">
+                 Login
+                <i  style="margin-left: 10px;" class="fa-solid fa-right-to-bracket"></i>
+            </a>
+           
         </div>
     </header>
     <!-- welcome-titile -->
@@ -160,7 +161,6 @@
     <!-- Restaurant -->
     <div class="Item3" id="Item3">
         <h class="titl">Restaurant</h>
-
         <div class="sur2">
             <button class="cardBtn" onclick="moveScroll('.squr4', 'left')">
                 <i class="fa-solid fa-caret-left"></i>
@@ -193,6 +193,78 @@
     <!-- travel -->
     <div class="Item4" id="Item4">
         <h class="titl">travel</h>
+        
+        <div class="infoContianer">
+            <div class="btnView">
+                <button class="infoBtn overView" onclick="changeTravelDetail('overview')">overview</button>
+                <button class="infoBtn transPortation" onclick="changeTravelDetail('transportation')">transportation</button>
+            </div>
+            <!-- overview -->
+            <div class="infoView overview">
+                <div class="title">overView</div>
+                <div class="infoContent">
+                    中国とインドに接する小さな内陸の国。北部にヒマラヤ連山が聳え、南部にタライ平原が広がる雄大な自然の中に、ヒンドゥー教、仏教などを信仰する多民族が暮らしています。
+                    <ul>
+                       <li>
+                            <span class="label">面積</span>
+                            <span class="content"> 約14万7,516平方キロメートル（日本の約0.4倍）</span>
+                        </li>
+                        <li>
+                            <span class="label">首都</span>
+                            <span class="content"> カトマンズ</span>
+                        </li>
+                        <li>
+                            <span class="label">首都</span>
+                            <span class="content"> カトマンズ</span>
+                        </li>
+                        <li>
+                            <span class="label">人口</span>
+                            <span class="content">約3,000万人</span>
+                        </li>
+                        <li>
+                            <span class="label">公用語</span>
+                            <span class="content">ネパール語</span>
+                        </li>
+                        <li>
+                            <span class="label">通貨</span>
+                            <span class="content">ネパール・ルピー（NPR）</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- transportation -->
+             <div class="infoView transportation hidden">
+                <div class="title">transportation</div>
+                <div class="infoContent">
+                    ネパールの交通情報について。道路、鉄道、空港などのインフラが国土の様々な地域を結んでいます。
+                    <ul>
+                        <li>
+                            <span class="label">主要空港</span>
+                            <span class="content"> トリブバン国際空港（カトマンズ）</span>
+                        </li>
+                        <li>
+                            <span class="label">鉄道</span>
+                            <span class="content"> 国内鉄道はなし、隣国インドとの鉄道接続あり</span>
+                        </li>
+                        <li>
+                            <span class="label">バス</span>
+                            <span class="content"> 長距離バス路線が全国主要都市を結ぶ</span>
+                        </li>
+                        <li>
+                            <span class="label">主要道路</span>
+                            <span class="content"> ハイウェイ網が首都カトマンズと地方都市を接続</span>
+                        </li>
+                        <li>
+                            <span class="label">交通手段</span>
+                            <span class="content"> タクシー、三輪車、バイクが日常移動で一般的</span>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
     </div>
     <!-- footer -->
     <footer>
