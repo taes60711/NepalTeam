@@ -11,7 +11,7 @@
 
     if(idValue != "" && passwordValue != ""){
         alert("Login Successful!");
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     } else {
         alert("Invalid ID or Password. Please try again.");
     }
