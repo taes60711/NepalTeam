@@ -61,6 +61,4 @@ function changeTravelDetail(viewBtn){
     transportationDetail.classList.remove('hidden');
     return;
   }
-  
-   
 }
